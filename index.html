@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartCode - Aprenda Programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="IMG/StarCode-removebg-preview.png" alt="logo da minha empresa">
+            </div>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="capa">
+        <div class="container">
+            <h1>Aprenda a programar do zero</h1>
+            <p>Cursos práticos para quem quer entrar no mercado de tecnologia.</p>
+            <br>
+            <a href="#cursos" class="botao">Ver Cursos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao">
+        <div class="container">
+            <h2>Sobre a Escola</h2>
+            <p>A <strong>Starcode</strong> é uma instituição de ensino dedicada à excelência na formação tecnológica.
+                Fundada sob os
+                pilares da inovação e da qualidade acadêmica, nosso objetivo é suprir a lacuna existente entre a
+                formação tradicional e as exigências dinâmicas do setor de TI.<br><br>
+
+                Contamos com um corpo docente formado por especialistas atuantes no mercado, garantindo que o conteúdo
+                transmitido em sala de aula esteja sempre alinhado com as melhores práticas da indústria global.<br><br>
+
+                O Curso de <strong>Desenvolvimento de Software:</strong> O Programa de Formação Starcode é uma jornada
+                estruturada de
+                aprendizado. O curso abrange desde os fundamentos da lógica de programação até arquiteturas complexas de
+                software. Focado no desenvolvimento de competências técnicas <strong>(hard skills)</strong> e
+                comportamentais <strong>(soft
+                    skills)</strong>, nosso currículo prepara o aluno para atuar com competência em desenvolvimento
+                <strong>Front-end</strong>,
+                <strong>Back-end e Full-stack</strong>, garantindo uma inserção sólida no mercado de trabalho.
+            </p>
+        </div>
+    </section>
+
+    <section id="cursos" class="secao fundo-cinza">
+        <div class="container">
+            <h2><strong>Nossos Cursos</strong></h2>
+
+            <div class="lista-cursos">
+                <div class="curso-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Ícone de código HTML">
+                    <h3>Front-End</h3>
+                    <p>Aprenda HTML, CSS e JavaScript.</p>
+                </div>
+
+                <div class="curso-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="Ícone de banco de dados">
+                    <h3>Back-End</h3>
+                    <p>Aprenda Banco de Dados e Python.</p>
+                </div>
+
+                <div class="curso-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2569/2569177.png" alt="Ícone de foguete">
+                    <h3>Full Stack</h3>
+                    <p>Aprenda tudo sobre desenvolvimento Front-End quanto Back-End.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <div class="container">
+            <h2><strong>Fale Conosco</strong></h2>
+            <p style="text-align: center;">Preencha os dados abaixo para receber a ementa.</p>
+            <br>
+            <form id="meuFormulario" action="https://formspree.io/f/xrbjdqzl" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+                <label for="curso">Qual curso você quer?</label>
+                <select id="curso" name="curso">
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-End">Back-End</option>
+                    <option value="Full Stack">Full Stack</option>
+                </select>
+
+                <button type="submit" class="botao-enviar">Enviar Contato</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projeto final de Front-End <br><br> UDF - 2025</p>
+
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/murilosouza1-ccp/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logo LinkedIn">
+            </a>
+
+            <a href="https://github.com/murilosouza1-ccp" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo GitHub">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
